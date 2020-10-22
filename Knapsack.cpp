@@ -1,4 +1,11 @@
+#include <bits/stdc++.h>
 #define ll long long
+#define pb push_back
+#define mp make_pair
+#define f first
+#define se second
+using namespace std;
+
 int main() {
 	ll t;
 	cin>>t;
@@ -12,7 +19,7 @@ int main() {
 	    for(ll i=0;i<n;i++)
 	    cin>>wt[i];
 	    
-	    ll ar[n][w];
+	    ll ar[n+1][w+1];
 	    for(ll i=0;i<=n;i++)
 	    {
 	        for(ll j=0;j<=w;j++)
