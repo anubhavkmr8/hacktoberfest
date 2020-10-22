@@ -12,7 +12,7 @@ int main()
 	ll a,b; 
 	cin>>a>>b;
 	//take a temp variable
-	ll temp = a; 
+	ll t=a; 
 	a=b; 
 	b=a; 
 	cout<<a<<" "<<b;
