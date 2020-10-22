@@ -15,7 +15,8 @@ int main()
    for(int i=0 ; i<n ; i++)
    cin >> a[i];
    
+   // Swap ith index from start with (n-1-1)th index from end.
    for (int i=0 ; i<(n+1)/2 ; i++){
-      swap(a[i], a[n-i]);
+      swap(a[i], a[n-i-1]);
   
 }
