@@ -1,3 +1,4 @@
+//c++ program to reverse an array
 #include <bits/stdc++.h>
 #define ll long long
 #define pb push_back
@@ -11,10 +12,10 @@ int main()
    int n;
    cin>>n;
    int ar[n];
-   for(int i=0;i<n;i++)
-   cin>>ar[i];
+   for(int i=0 ; i<n ; i++)
+   cin >> ar[i];
    
-   for (int i=0;i<(n+1)/2;i++){
+   for (int i=0 ; i<(n+1)/2 ; i++){
       swap(arr[i], arr[n-i]);
   
 }
