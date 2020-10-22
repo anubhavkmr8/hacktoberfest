@@ -9,9 +9,10 @@ using namespace std;
 
 int main() 
 { 
-	int a,b; 
+	ll a,b; 
 	cin>>a>>b;
-	int temp = a; 
+	//take a temp variable
+	ll temp = a; 
 	a=b; 
 	b=a; 
 	cout<<a<<" "<<b;
