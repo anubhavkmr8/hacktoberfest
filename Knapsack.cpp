@@ -15,14 +15,14 @@ int main() {
 	    cin>>n>>w;
 	    ll val[n],wt[n];
 	    for(ll i=0;i<n;i++)
-	    cin>>val[i];
+	    cin >> val[i];
 	    for(ll i=0;i<n;i++)
-	    cin>>wt[i];
+	    cin >> wt[i];
 	    
 	    ll ar[n+1][w+1];
-	    for(ll i=0;i<=n;i++)
+	    for(ll i=0;i<n+1;i++)
 	    {
-	        for(ll j=0;j<=w;j++)
+	        for(ll j=0;j<w+1;j++)
 	        {
 	            if(i==0 or j==0)
 	            ar[i][j]=0;
