@@ -34,5 +34,6 @@ int main() {
 	    }
 	    cout<<ar[n][w]<<"\n";
 	}
+	cout<<"\n";
 	return 0;
 }
