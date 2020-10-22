@@ -11,11 +11,11 @@ int main()
 {
    int n;
    cin>>n;
-   int ar[n];
+   int a[n];
    for(int i=0 ; i<n ; i++)
-   cin >> ar[i];
+   cin >> a[i];
    
    for (int i=0 ; i<(n+1)/2 ; i++){
-      swap(arr[i], arr[n-i]);
+      swap(a[i], a[n-i]);
   
 }

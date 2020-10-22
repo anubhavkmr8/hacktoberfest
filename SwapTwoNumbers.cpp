@@ -9,13 +9,12 @@ using namespace std;
 
 int main() 
 { 
-	int x, y; 
-	cin>>x>>y;
-
-	int temp = x; 
-	x = y; 
-	y = x; 
-
-	cout<<x<<" "<<y;
+	ll a,b; 
+	cin>>a>>b;
+	//take a temp variable
+	ll t=a; 
+	a=b; 
+	b=a; 
+	cout<<a<<" "<<b;
 	return 0; 
 } 
