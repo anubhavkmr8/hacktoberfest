@@ -9,13 +9,11 @@ using namespace std;
 
 int main() 
 { 
-	int x, y; 
+	int x,y; 
 	cin>>x>>y;
-
 	int temp = x; 
-	x = y; 
-	y = x; 
-
+	x=y; 
+	y=x; 
 	cout<<x<<" "<<y;
 	return 0; 
 } 
