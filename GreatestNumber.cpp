@@ -20,5 +20,5 @@ int main() {
     {
         mx=max(mx,a[i]);
     }
-    cout<<mx;
+    cout<<mx<<"\n;
 }
